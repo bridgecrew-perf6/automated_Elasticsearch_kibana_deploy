@@ -9,8 +9,8 @@ services:
       - 9200:9200
     volumes:
       - ./elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
-        #- ./elastic-certificates.p12:/usr/share/elasticsearch/config/elastic-certificates.p12
-        #- ./docker-data-volumes/elasticsearch:/usr/share/elasticsearch/data
+      - ./elastic-certificates.p12:/usr/share/elasticsearch/config/elastic-certificates.p12
+      - ./docker-data-volumes/elasticsearch:/usr/share/elasticsearch/data
 
   kibana:
    container_name: kib01
