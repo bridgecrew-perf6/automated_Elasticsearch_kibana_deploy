@@ -20,8 +20,7 @@ changeperms() {
 }
 
 create_data_dirs(){
-  mkdir docker-data-volumes
-  mkdir docker-data-volumes/elasticsearch
+  mkdir -p "docker-data-volumes/elasticsearch"
 }
 
 gen
