@@ -1,0 +1,11 @@
+{
+    "Host": "localhost:8000",
+    "IP": "127.0.0.1",
+    "DS_Usuario": "anonymous",
+    "SQ_Usuario": "None",
+    "Path": "/comercial/lista_atributo",
+    "Modulo": "comercial",
+    "Endpoint": "lista_atributo",
+    "Inicio": "05/26/2022, 16:06:51:405930",
+    "Termino": "05/26/2022, 16:06:51:406131"
+}
